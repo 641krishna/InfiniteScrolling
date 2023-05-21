@@ -23,7 +23,7 @@ const Login = () => {
         // console.log(username)
         if (!username || !password) {
             alert("Enter all Credentials")
-        } else if (username === "Krishna" && password === "123") {
+        } else if (username === "foo" && password === "bar") {
             navigate('/home')
         } else {
             alert("Please Enter Correct Values")
